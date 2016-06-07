@@ -13,12 +13,12 @@ eventsApp.directive('dateKeys', function() {
     }
   }
   function isNumericKeyCode (keyCode) {
-    return (event.keyCode >= 48 && event.keyCode <= 57)
-        || (event.keyCode >= 96 && event.keyCode <= 105);
+    return (event.keyCode >== 48 && event.keyCode <== 57)
+        || (event.keyCode >== 96 && event.keyCode <== 105);
   }
 
   function isForwardSlashKeyCode (keyCode) {
-    return event.keyCode = 191;
+    return event.keyCode === 191;
   }
 
   function isNavigationKeycode(keyCode) {
@@ -33,7 +33,6 @@ eventsApp.directive('dateKeys', function() {
       case 45: //ins
       case 46: //del
         return true;
-        break;
       default:
         return false;
 
