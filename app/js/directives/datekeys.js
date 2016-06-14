@@ -13,8 +13,8 @@ eventsApp.directive('dateKeys', function() {
     }
   }
   function isNumericKeyCode (keyCode) {
-    return (event.keyCode >== 48 && event.keyCode <== 57)
-        || (event.keyCode >== 96 && event.keyCode <== 105);
+    return (event.keyCode >= 48 && event.keyCode <= 57)
+        || (event.keyCode >= 96 && event.keyCode <= 105);
   }
 
   function isForwardSlashKeyCode (keyCode) {
