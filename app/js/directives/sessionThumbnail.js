@@ -7,7 +7,8 @@ eventsApp.directive('sessionThumbnail', function() {
     templateUrl: '/templates/directives/sessionThumbnail.html',
     controller: 'EventController',
     scope: {
-      session: "="
+      session: '='
     }
+
   };
 });

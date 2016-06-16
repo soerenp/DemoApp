@@ -4,10 +4,7 @@ eventsApp.directive('eventDetails', function() {
   return {
     restrict: 'E',
     replace: true,
-    templateUrl: '/templates/directives/eventDetails.html',
-    scope: {
-      event: '='
-    }
+    templateUrl: '/templates/directives/eventDetails.html'
 
   }
 });

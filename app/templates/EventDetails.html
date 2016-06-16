@@ -1,12 +1,16 @@
 
     <div class="eventContainer">
-      <event-details event="event">
+      <div>
+        <event-details/>
+      </div>
       <hr>
 
       <h3>Sessions</h3>
-      <!--<ul class="thumbnails">
-        <li ng-repeat="sessions in event.sessions" class="span11" id="sessions{{sessions.id}}">
-          <session-thumbnail session="sessions">
-        </li>
-      </ul>-->
+      <div>
+        <ul class="thumbnails">
+          <li ng-repeat="sessions in event.sessions" class="span11" id="sessions{{sessions.id}}">
+            <session-thumbnail session="sessions"/>
+          </li>
+        </ul>
+      </div>
     </div>
